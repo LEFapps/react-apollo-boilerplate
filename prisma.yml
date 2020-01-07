@@ -1,0 +1,9 @@
+#endpoint: http://localhost:4466
+#endpoint: https://eu1.prisma.sh/tomas-vink-6a3be6/apollo-server-prisma-starter/dev
+#endpoint: https://eu1.prisma.sh/tomas-vink-6a3be6/apollo-server-prisma-starter/dev
+endpoint: https://eu1.prisma.sh/tomas-vink-6a3be6/apollo-server-prisma-starter/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./src/generated/prisma-client/
